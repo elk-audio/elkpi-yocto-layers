@@ -1,0 +1,35 @@
+0.6.1
+ -> Sushi updated to 0.9.1.
+ -> SFTP is now available.
+
+0.6.0 : First public release
+ -> Moved to 32 bit Linux.
+ -> 3d graphics is not supported.
+ -> QT5 is not supported.
+ -> Removed SAMBA.
+ -> rootfs is now RW as sd card is more robust now.
+ -> Hostname is by defualt elk-pi now.
+ -> Uboot serial console is disabled.
+ -> Udata user permissions are automatically set.
+
+0.1.3
+ -> Added SENSEI - a real time software for managing sensors board.
+ -> Added SAMBA - a software utility to share files between windows and unix systems.
+ -> Wifi is now working..
+ -> SW Update capability.
+ -> I2C is now enabled.
+ -> Uboot is now used as bootloader.
+
+0.1.2
+ -> Audio driver made more robust. Fixed random silence and swapping of audio channels.
+ -> python3-grpcio, python3-grpcio-tools and python3-protobuf have been added.
+ -> Perf tools now available.
+ -> HDMI video support enabled in kernel.
+ -> QT5 is available.
+
+0.1.1
+ -> New Elk Audio OS logo added and is displayed upon boot.
+ -> Improvements to the real time audio driver.
+
+0.1.0 : 15 Oct 2019 : Feature Release
+    -> Initial release to beta-testers.
