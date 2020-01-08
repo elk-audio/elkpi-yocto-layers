@@ -1,6 +1,8 @@
 0.6.1
  -> Sushi updated to 0.9.1.
  -> SFTP is now available.
+ -> UART baudrate has been changed to 57600 from the previous 115200
+ -> LED notification of SW Update progress through USB drive.
 
 0.6.0 : First public release
  -> Moved to 32 bit Linux.
