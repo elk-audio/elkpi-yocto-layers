@@ -6,7 +6,7 @@
     <remote name="elk" fetch="git://github.com/elk-audio"/>
     <remote name="qt" fetch="git://github.com/meta-qt5/"/>
     <remote name="clang" fetch="git://github.com/kraj"/>
-    <remote name="rpi_yocto" fetch="git://github.com/agherzan"/>
+    <remote name="rpi-yocto" fetch="git://github.com/agherzan"/>
     <remote name="swupdate" fetch="https://github.com/sbabic/"/>
 
     <default sync-j="4"/>
@@ -14,7 +14,7 @@
     <project name="poky" path="layers" remote="yocto" revision="79a850a10a4b88a6d20d607b322542f947874323" upstream="warrior"/>
     <project name="meta-openembedded" path="layers/meta-openembedded" remote="openembedded" revision="f4ccdf2bc3fe4f00778629088baab840c868e36b" upstream="warrior"/>
     <project name="meta-qt5" path="layers/meta-qt5" remote="qt" revision="911b346b0d5098ef08f99c7efa5637457ee11d77" upstream="warrior"/>
-    <project name="meta-raspberrypi" path="layers/meta-raspberrypi" remote="rpi_yocto" revision="0750d5d2bc9596f35d5d61bb0ff657be4b02bfdc" upstream="warrior"/>
+    <project name="meta-raspberrypi" path="layers/meta-raspberrypi" remote="rpi-yocto" revision="0750d5d2bc9596f35d5d61bb0ff657be4b02bfdc" upstream="warrior"/>
     <project name="meta-swupdate" path="layers/meta-swupdate" remote="swupdate" revision="09c4868b90e44c0982fd3bb08353801bd5fa0345" upstream="warrior"/>
 
     <project name="meta-elk" path="layers/meta-elk" remote="elk" revision="0f5b8ab6503c3277a8d5422e65a0239351e4b1fa" upstream="warrior"/>
