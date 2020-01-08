@@ -19,5 +19,5 @@
 
     <project name="meta-elk" path="layers/meta-elk" remote="elk" revision="0f5b8ab6503c3277a8d5422e65a0239351e4b1fa" upstream="warrior"/>
     <project name="meta-raspberrypi-elk" path="layers/meta-raspberrypi-elk" remote="elk" revision="0a7983f3d933336996dd140c16fe84bdac34f271" upstream="warrior"/>
-    <project name="meta-elkpi" path="layers/meta-elkpi" remote="elk" revision="ec2394d15f16f89e8fb9b898d79e03a8205c4997" upstream="warrior"/>
+    <project name="meta-elkpi" path="layers/meta-elkpi" remote="elk" revision="887c7fbbf3af824ed935ee1aaef72891613e3845" upstream="warrior"/>
 </manifest>
