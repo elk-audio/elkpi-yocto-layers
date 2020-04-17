@@ -18,6 +18,6 @@
     <project name="meta-swupdate" path="layers/meta-swupdate" remote="swupdate" revision="7ebe40f1a9b312476580fc74541231ac202feaa4" upstream="warrior"/>
 
     <project name="meta-elk" path="layers/meta-elk" remote="elk" revision="f96ace4c480d7f6e0bd8865d39f85b195a175962" upstream="warrior"/>
-    <project name="meta-raspberrypi-elk" path="layers/meta-raspberrypi-elk" remote="elk" revision="f4fef34ccb49457e2bb2e7bea59e39d7234770df" upstream="warrior"/>
-    <project name="meta-elkpi" path="layers/meta-elkpi" remote="elk" revision="c9cc28c79670029feffbcc97bc6e48b9486d3cf5" upstream="warrior"/>
+    <project name="meta-raspberrypi-elk" path="layers/meta-raspberrypi-elk" remote="elk" revision="e6fe226b89ad40829431918c5be47e754e2a5fe7" upstream="warrior"/>
+    <project name="meta-elkpi" path="layers/meta-elkpi" remote="elk" revision="f17adb8374fe1c007715b8faca2ea6892e52c196" upstream="warrior"/>
 </manifest>
