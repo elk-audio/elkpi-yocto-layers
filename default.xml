@@ -11,13 +11,13 @@
 
     <default sync-j="4"/>
 
-    <project name="poky" path="layers" remote="yocto" revision="4c773c7b03fb4596cd3873261de438dfd7b44158" upstream="warrior"/>
+    <project name="poky" path="layers" remote="yocto" revision="274e8c50eee14c0bfc1fc3f51d5b33cbc44c3a31" upstream="warrior"/>
     <project name="meta-openembedded" path="layers/meta-openembedded" remote="openembedded" revision="a24acf94d48d635eca668ea34598c6e5c857e3f8" upstream="warrior"/>
-    <project name="meta-qt5" path="layers/meta-qt5" remote="qt" revision="20331bd6b696793a7aa23a3c035e5ebcf3075aa3" upstream="warrior"/>
+    <project name="meta-qt5" path="layers/meta-qt5" remote="qt" revision="7d0b17aa229edc9e138edfe0e8477fbbe9013ba6" upstream="warrior"/>
     <project name="meta-raspberrypi" path="layers/meta-raspberrypi" remote="rpi-yocto" revision="5551792e642d6cc32e22dfe6dbfd29ac3e2390cd" upstream="warrior"/>
     <project name="meta-swupdate" path="layers/meta-swupdate" remote="swupdate" revision="7ebe40f1a9b312476580fc74541231ac202feaa4" upstream="warrior"/>
 
-    <project name="meta-elk" path="layers/meta-elk" remote="elk" revision="f96ace4c480d7f6e0bd8865d39f85b195a175962" upstream="warrior"/>
-    <project name="meta-raspberrypi-elk" path="layers/meta-raspberrypi-elk" remote="elk" revision="f4fef34ccb49457e2bb2e7bea59e39d7234770df" upstream="warrior"/>
-    <project name="meta-elkpi" path="layers/meta-elkpi" remote="elk" revision="c9cc28c79670029feffbcc97bc6e48b9486d3cf5" upstream="warrior"/>
+    <project name="meta-elk" path="layers/meta-elk" remote="elk" revision="36979ff558d01e76b68352145d2ca705e09adf15" upstream="warrior"/>
+    <project name="meta-raspberrypi-elk" path="layers/meta-raspberrypi-elk" remote="elk" revision="aa7ace59250d1c0f2196ff24c1ab7ce4c3dd822f" upstream="warrior"/>
+    <project name="meta-elkpi" path="layers/meta-elkpi" remote="elk" revision="9666640b254615d9afa0d63eb7ca8fb13d87222b" upstream="warrior"/>
 </manifest>
