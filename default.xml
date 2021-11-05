@@ -11,13 +11,13 @@
 
     <default sync-j="4"/>
 
-    <project name="poky" path="layers" remote="yocto" revision="274e8c50eee14c0bfc1fc3f51d5b33cbc44c3a31" upstream="warrior"/>
-    <project name="meta-openembedded" path="layers/meta-openembedded" remote="openembedded" revision="a24acf94d48d635eca668ea34598c6e5c857e3f8" upstream="warrior"/>
-    <project name="meta-qt5" path="layers/meta-qt5" remote="qt" revision="7d0b17aa229edc9e138edfe0e8477fbbe9013ba6" upstream="warrior"/>
-    <project name="meta-raspberrypi" path="layers/meta-raspberrypi" remote="rpi-yocto" revision="5551792e642d6cc32e22dfe6dbfd29ac3e2390cd" upstream="warrior"/>
-    <project name="meta-swupdate" path="layers/meta-swupdate" remote="swupdate" revision="7ebe40f1a9b312476580fc74541231ac202feaa4" upstream="warrior"/>
+    <project name="poky" path="layers" remote="yocto" revision="c6334795af795b692d390b9e6eabba452b0b1b4b" upstream="hardknott"/>
+    <project name="meta-openembedded" path="layers/meta-openembedded" remote="openembedded" revision="dc262c52b0b10625bf7a2330e1c4e0fe2d8db6aa" upstream="hardknott"/>
+    <project name="meta-qt5" path="layers/meta-qt5" remote="qt" revision="43f8f539d40070a70fe89136db89bf5bb1dfe7ed" upstream="hardknott"/>
+    <project name="meta-raspberrypi" path="layers/meta-raspberrypi" remote="rpi-yocto" revision="9d372828ba657340a42e31875d2326e5f6753403" upstream="hardknott"/>
+    <project name="meta-swupdate" path="layers/meta-swupdate" remote="swupdate" revision="30df302f6d58ba5ea97cde7d9327591662d3fdad" upstream="hardknott"/>
 
-    <project name="meta-elk" path="layers/meta-elk" remote="elk" revision="36979ff558d01e76b68352145d2ca705e09adf15" upstream="warrior"/>
-    <project name="meta-raspberrypi-elk" path="layers/meta-raspberrypi-elk" remote="elk" revision="aa7ace59250d1c0f2196ff24c1ab7ce4c3dd822f" upstream="warrior"/>
-    <project name="meta-elkpi" path="layers/meta-elkpi" remote="elk" revision="9666640b254615d9afa0d63eb7ca8fb13d87222b" upstream="warrior"/>
+    <project name="meta-elk" path="layers/meta-elk" remote="elk" revision="9dc5969c9503bdcbc945f89e39c0db3549359bfd" upstream="hardknott"/>
+    <project name="meta-raspberrypi-elk" path="layers/meta-raspberrypi-elk" remote="elk" revision="b7ca94e14e7a047cfddc9b8cf5b550afaa45dd46" upstream="hardknott"/>
+    <project name="meta-elkpi" path="layers/meta-elkpi" remote="elk" revision="9dbbc76c92f2f3226f21d4d0b3ff79ebb1e49b8c" upstream="hardknott"/>
 </manifest>
