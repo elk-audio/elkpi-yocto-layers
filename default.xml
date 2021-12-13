@@ -19,5 +19,5 @@
 
     <project name="meta-elk" path="layers/meta-elk" remote="elk" revision="9dc5969c9503bdcbc945f89e39c0db3549359bfd" upstream="hardknott"/>
     <project name="meta-raspberrypi-elk" path="layers/meta-raspberrypi-elk" remote="elk" revision="119708104fd6508e8e0c1b34b1112f31743cba78" upstream="hardknott"/>
-    <project name="meta-elkpi" path="layers/meta-elkpi" remote="elk" revision="8bf8daa990d182a70033228bb5f71ad6bbd6ac63" upstream="hardknott"/>
+    <project name="meta-elkpi" path="layers/meta-elkpi" remote="elk" revision="e6e2ca6ac5a7060a407ceb1c7e3137a64755bcdf" upstream="hardknott"/>
 </manifest>
