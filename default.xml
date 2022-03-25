@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="yocto" fetch="git://git.yoctoproject.org"/>
-    <remote name="openembedded" fetch="git://git.openembedded.org"/>
-    <remote name="elk" fetch="git://github.com/elk-audio"/>
-    <remote name="qt" fetch="git://github.com/meta-qt5/"/>
-    <remote name="clang" fetch="git://github.com/kraj"/>
-    <remote name="rpi-yocto" fetch="git://github.com/agherzan"/>
+    <remote name="yocto" fetch="https://git.yoctoproject.org"/>
+    <remote name="openembedded" fetch="https://git.openembedded.org"/>
+    <remote name="elk" fetch="https://github.com/elk-audio"/>
+    <remote name="qt" fetch="https://github.com/meta-qt5/"/>
+    <remote name="clang" fetch="https://github.com/kraj"/>
+    <remote name="rpi-yocto" fetch="https://github.com/agherzan"/>
     <remote name="swupdate" fetch="https://github.com/sbabic/"/>
 
     <default sync-j="4"/>
