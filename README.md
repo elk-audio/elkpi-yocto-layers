@@ -6,8 +6,18 @@ Repo Manifest file for building Elk Audio OS Images for the Elk Pi Development K
 
 In order to use the manifest file, you need to install Google's `repo` tool. Installation instructions can be found [here](https://gerrit.googlesource.com/git-repo).
 
-You will also need a host Linux machine with a reasonably recent distribution and at least 50 GB of disk space available. Check the [official Yocto requirements](https://www.yoctoproject.org/docs/latest/ref-manual/ref-manual.html#ref-manual-system-requirements) for more details.
+You will also need a host Linux machine with a reasonably recent distribution and at least 60 GB of disk space available. Check the [official Yocto requirements](https://docs.yoctoproject.org/ref-manual/system-requirements.html) for more details.
 [Docker](https://www.docker.com/) can be used for building under Windows / macOS without installing a Linux Virtual Machine, although there will still be a non-negligible impact on build times compared to native Linux builds. Another popular option is to host the build environment on the cloud using Amazon's EC2 instances, Microsoft Azure or similar services.
+
+Other than mentioned on the official Yocto requirements, the build does not work on Ubuntu 22.04 LTS.
+On Ubuntu 20.04 LTS, you need to downgrade to Python 3.9.X for a successful build.
+
+Required git configuration
+```
+git config --global url.https://github.com/.insteadOf git://github.com/
+```
+
+Follow these [hints](https://docs.yoctoproject.org/dev/dev-manual/speeding-up-build.html) for speeding up the build.
 
 You will also need to install [gRPC 1.10.0](https://github.com/grpc/grpc/tree/v1.10.x) and [protobuf 3.5.0](https://github.com/protocolbuffers/protobuf/tree/3.5.x) on your host environment.
 
